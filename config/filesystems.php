@@ -57,6 +57,14 @@ return [
             'throw' => false,
         ],
 
+        'products' => [
+            'driver' => 'local',
+            'root' => realpath('assets/images/products'),
+            'url' => env('APP_URL').'/assets/images/products',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
     ],
 
     /*
